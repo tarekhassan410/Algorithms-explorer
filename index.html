@@ -7,18 +7,19 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet"
       href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha256-2YQRJMXD7pIAPHiXr0s+vlRWA7GYJEK0ARns7k2sbHY=" crossorigin="anonymous" />
     <title>Document</title>
 </head>
 <body>
     <div id="page">
         <h1>Algorithm explorer</h1>
-        <div class="page-container">
-            <div class="container">
+        <div class="page-container row">
+            <div class="container column">
                 <div>
                     <h2>Choose an algorithm</h2>
                 </div>
                 <div>
-                    <select id="algos-multiselect">
+                    <select class="u-full-width" id="algos-multiselect">
                         <option value="1">Reverse String</option>
                         <option value="2">Palindrome</option>
                         <option value="3">Reverse integer</option>
@@ -34,7 +35,7 @@
                     </p>
                 </div>
             </div>
-            <div class="written-algorithm"> 
+            <div class="written-algorithm column"> 
                 <pre>
                     <code class="algo-description html">
                     </code>
