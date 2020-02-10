@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-color: #fafafa;
+    color: #2e2e2e;
+    line-height: 1.8;
+}
+
+#page{
+    margin: 0 auto;
+    max-width:1000px;
+}
+
+.page-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+
+#page h1{
+    color: black;
+    margin: 40px 0;
+}
+
+.container div #algos-multiselect{
+    margin: 10px 0;
+    width: 100%;
+    padding: 5px 20px;
+}
+
+.algo-steps-container{
+    margin-top: 10px;
+}
+
+.written-algorithm label{
+    display: block;
+    text-align: left;
+}
+
+.written-algorithm{
+    margin: 0px 0px 0px 40px;
+    width: 600px;
+    transition-property: width;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+
+.algo-description{
+    text-align: left;
+    margin: 20px 0;
+    border: 1px solid black;
+}
+
+.algo-steps{
+    margin-top: 10px;
+    width: 400px;
+}
+

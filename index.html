@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/default.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="page">
+        <h1>Algorithm explorer</h1>
+        <div class="page-container">
+            <div class="container">
+                <div>
+                    <h2>Choose an algorithm</h2>
+                </div>
+                <div>
+                    <select id="algos-multiselect">
+                        <option value="1">Reverse String</option>
+                        <option value="2">Palindrome</option>
+                        <option value="3">Reverse integer</option>
+                        <option value="4">Max chars</option>
+                        <option value="5">Fizzbuzz</option>
+                    </select>
+                </div>
+                <div class="algo-steps-container">
+                    <h3>
+                        Description of the algorithm
+                    </h3>
+                    <p class="algo-steps">
+                    </p>
+                </div>
+            </div>
+            <div class="written-algorithm"> 
+                <pre>
+                    <code class="algo-description html">
+                    </code>
+                </pre>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+    
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+</body>
+</html>

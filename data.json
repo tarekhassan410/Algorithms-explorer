@@ -1,0 +1,27 @@
+[    
+    {
+        "id": "1",
+        "intro": "Reverse String",
+        "algorithm": "function strReverse(aString) { var newString = []; for ( var i = 0 ; i < aString.length ; i++ ) { newString[i] = aString[aString.length - i - 1] } return newString } strReverse('yes') strReverse('apple') "
+    },
+    {
+        "id": "2",
+        "intro": "",
+        "algorithm": ""
+    },
+    {
+        "id": "3",
+        "intro": "",
+        "algorithm": ""
+    },
+    {
+        "id": "4",
+        "intro": "",
+        "algorithm": ""
+    },
+    {
+        "id": "5",
+        "intro": "",
+        "algorithm": ""
+    }
+]
